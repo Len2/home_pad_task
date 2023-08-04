@@ -4,7 +4,6 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Registration extends Model
 {
@@ -16,5 +15,4 @@ class Registration extends Model
         'customer_id',
         'package_id'
     ];
-
 }

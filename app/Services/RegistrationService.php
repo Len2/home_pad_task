@@ -1,10 +1,7 @@
 <?php
 
 namespace App\Services;
-use App\Models\Package;
 use App\Models\Registration;
-use App\Services\Interface\CostumerInterface;
-use App\Services\Interface\PackageInterface;
 use App\Services\Interface\RegistrationInterface;
 
 

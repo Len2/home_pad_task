@@ -8,14 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Package extends Model
 {
     use HasFactory;
-
     public $timestamps = false;
 
     protected $fillable = [
         'name',
         'limit'
     ];
-
-
 
 }

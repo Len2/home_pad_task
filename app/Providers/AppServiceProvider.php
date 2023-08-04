@@ -3,7 +3,6 @@
 namespace App\Providers;
 
 use App\Services\AuthService;
-use App\Services\CostomerService;
 use App\Services\Interface\AuthInterface;
 use App\Services\Interface\CostumerInterface;
 use App\Services\Interface\PackageInterface;
