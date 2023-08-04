@@ -7,6 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+Documentation:
+
+Laravel Project Readme
+This is a Laravel project that fulfills the following requirements:
+
+Able to run in Laravel
+Uses the latest syntax offered by PHP 8+
+Utilizes the latest tools and structures offered by Laravel 10
+Prioritizes code readability, reusability, and structured programming
+Adheres to proper naming conventions
+Implements optimized MySQL queries, connections, and load management
+Performs proper validation for API endpoints
+Delivers consistent API responses and status codes
+Includes comprehensive unit testing
+
+Command for installation
+
+git clone https://github.com/Len2/home_pad_task (private repository)
+
+composer install
+
+php artisan migrate
+
+php artisan db:seed
+
+php artisan serve
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
